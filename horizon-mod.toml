@@ -1,0 +1,8 @@
+id = "centered_crosshair"
+name = "Centered Crosshair"
+version = "1.0.0"
+description = "Keeps the HUD crosshair centred at the true window centre instead of vanilla's integer `(w - 15) / 2`, which rounds the sprite half a pixel off whenever the gui-scaled size loses its fraction. A 1:1 Rust port of JustAlittleWolf/centered-crosshair (MIT (c) 2023 JustAlittleWolf); the subpixel draw waits on a Horizon float-position sprite API."
+authors = ["JustAlittleWolf", "sparticle"]
+api = "0.2"
+side = "client"
+capabilities = ["registries"]
